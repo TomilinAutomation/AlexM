@@ -14,7 +14,7 @@ private final By card = By.xpath("//div[@class='cursor-pointer w-full h-full']")
 
     public RealtListingPage checkCountsCards(){
         int countCard = driver.findElements(card).size();
-        Assert.assertEquals(countCard,31);
+        Assert.assertEquals(countCard,34);
         return this;
     }
 
